@@ -33,4 +33,4 @@ Route::post('/login', [LoginController::class, 'store']);
 
 Route::get('/posts', function() {
     return view('posts.index');
-});
+})->name('posts');
